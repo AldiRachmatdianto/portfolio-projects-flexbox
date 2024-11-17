@@ -447,6 +447,7 @@ aside {
 }
 
 .projects2 {
+    flex-wrap: wrap;
     display: flex;
     justify-content: space-around;
     margin-top: 4em;
@@ -457,7 +458,6 @@ aside {
 }
 .projects2-lampiran {
 
-    max-width: 60%;
     display: flex;
     box-sizing: border-box;
     padding: 20px;
@@ -471,7 +471,7 @@ aside {
 }
 .projects2-lampiran img {
     max-width: 100%;
-    aspect-ratio: -1/2;
+    
     object-fit: cover;
     border-radius: 12px;
     box-shadow: rgba(17, 17, 26, 0.1) 0px 4px 16px, rgba(17, 17, 26, 0.05) 0px 8px 32px;
