@@ -126,7 +126,7 @@ main {
 }
 .profile {
     max-width: 280px;
-    min-width: 180px;
+    /* min-width: 180px; */
     /* height: 420px; */
     border-radius: 999px;
     display: flex;  
@@ -153,7 +153,7 @@ main {
 }
 .profile img {
     animation: profiles 3s ease 0s infinite normal forwards;
-    min-width: 200px;
+    /* min-width: 200px; */
     max-width: 300px;
     aspect-ratio: 1/1;
     border-radius: 999px;
@@ -179,7 +179,7 @@ main {
 article {
     /* margin-top: 4em; */
     width: 40%;
-    min-width: 40%;
+    /* min-width: 40%; */
     line-height: 1.65;
     text-align: justify;
     color: white;
@@ -360,9 +360,7 @@ aside {
 .skillsTeks h1:hover {
     animation: buttons 2s ease 0s infinite normal forwards;
 }
-.projects-page {
-    width: 100%;
-}
+
 
 .projects {
     width: 100%;
@@ -433,7 +431,7 @@ aside {
 .teksproject {
     margin-right: 20px;
     max-width: 40%;
-    min-width: 10%;
+    /* min-width: 10%; */
     display: flex;
     flex-direction: column;
     gap: 2rem;
@@ -442,7 +440,7 @@ aside {
 }
 .teksproject p {
     width: 100%;
-    min-width: 40%;
+    /* min-width: 40%; */
     line-height: 1.65;
     text-align: justify;
     color: white;
@@ -489,7 +487,7 @@ aside {
     color: white    ;
     margin-right: 20px;
     max-width: 40%;
-    min-width: 10%;
+    /* min-width: 10%; */
     display: flex;
     flex-direction: column;
     gap: 2rem;
@@ -498,7 +496,7 @@ aside {
 }
 .teksprojectweb p {
     width: 100%;
-    min-width: 40%;
+    /* min-width: 40%; */
     line-height: 1.65;
     text-align: justify;
     color: white;
@@ -514,7 +512,7 @@ aside {
 
 
 
-@media screen and (min-width: 200px) and (max-width: 833px) {
+@media screen and (min-width: 100px) and (max-width: 833px) {
 
     .navbar {
         flex-direction: column;
