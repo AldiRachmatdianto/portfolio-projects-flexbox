@@ -363,13 +363,13 @@ aside {
 
 
 .projects {
+    gap: 2rem;
     width: 100%;
     display: flex;
     /* flex-direction: column; */
     /* align-items: center; */
     margin-top: 4em;
     justify-content: space-around;
-    background-color: red;
     box-sizing: border-box;
     padding: 10px;
 }
@@ -411,7 +411,7 @@ aside {
 }
 .projects-lampiran img {
     animation: projects 2s ease 0s infinite normal forwards;
-    max-width: 35vh;
+    max-width: 250px;
     aspect-ratio: 1/1;
     box-sizing: border-box;
     border-radius: 12px;
