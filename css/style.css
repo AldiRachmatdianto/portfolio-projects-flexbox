@@ -363,6 +363,7 @@ aside {
 
 
 .projects {
+    background: red;
     width: 100%;
     display: flex;
     /* flex-direction: column; */
