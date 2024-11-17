@@ -363,23 +363,24 @@ aside {
 
 .projects {
     width: 100%;
-    height: 100vh;
+    /* height: 100vh; */
     display: flex;
     /* flex-direction: column; */
     /* align-items: center; */
     margin-top: 4em;
-    justify-content: center;
+    justify-content: space-around;
     box-sizing: border-box;
     padding: 10px;
 }
 .projects-lampiran {
     display: flex;
-    gap: 2em;
+    gap: 1rem;
     order: -1;
     flex-wrap: wrap;
     box-sizing: border-box;
     padding: 20px;
     justify-content: center;
+    /* background-color: #fff; */
 
 }
 @keyframes projects {
@@ -409,7 +410,7 @@ aside {
 }
 .projects-lampiran img {
     animation: projects 2s ease 0s infinite normal forwards;
-    max-width: 110px;
+    max-width: 30vh;
     aspect-ratio: 1/1;
     box-sizing: border-box;
     border-radius: 12px;
