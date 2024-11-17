@@ -411,11 +411,12 @@ aside {
 }
 .projects-lampiran img {
     animation: projects 2s ease 0s infinite normal forwards;
-    max-width: 250px;
+    max-width: 18rem;
     aspect-ratio: 1/1;
     box-sizing: border-box;
     border-radius: 12px;
     box-shadow: rgba(17, 17, 26, 0.1) 0px 4px 16px, rgba(17, 17, 26, 0.05) 0px 8px 32px;
+    flex-wrap: wrap;
 
 
 }
