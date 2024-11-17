@@ -411,7 +411,7 @@ aside {
 }
 .projects-lampiran img {
     animation: projects 2s ease 0s infinite normal forwards;
-    max-width: 18rem;
+    max-width: 1rem;
     aspect-ratio: 1/1;
     box-sizing: border-box;
     border-radius: 12px;
