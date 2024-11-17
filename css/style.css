@@ -363,13 +363,12 @@ aside {
 
 
 .projects {
-    gap: 2rem;
     width: 100%;
     display: flex;
     /* flex-direction: column; */
     /* align-items: center; */
     margin-top: 4em;
-    justify-content: space-around;
+    justify-content: center;
     box-sizing: border-box;
     padding: 10px;
 }
@@ -411,12 +410,11 @@ aside {
 }
 .projects-lampiran img {
     animation: projects 2s ease 0s infinite normal forwards;
-    max-width: 1rem;
+    max-width: 35vh;
     aspect-ratio: 1/1;
     box-sizing: border-box;
     border-radius: 12px;
     box-shadow: rgba(17, 17, 26, 0.1) 0px 4px 16px, rgba(17, 17, 26, 0.05) 0px 8px 32px;
-    flex-wrap: wrap;
 
 
 }
@@ -592,7 +590,6 @@ aside {
     .projects2 {
         flex-direction: column;
         align-items: center;
-        justify-content: flex-start;
         gap: 2em;
     }
     .teksprojectweb {
