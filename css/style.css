@@ -362,8 +362,8 @@ aside {
 
 
 .projects {
-    /* background: red; */
     width: 100%;
+    height: 100vh;
     display: flex;
     /* flex-direction: column; */
     /* align-items: center; */
@@ -409,7 +409,7 @@ aside {
 }
 .projects-lampiran img {
     animation: projects 2s ease 0s infinite normal forwards;
-    max-width: 35vh;
+    max-width: 110px;
     aspect-ratio: 1/1;
     box-sizing: border-box;
     border-radius: 12px;
