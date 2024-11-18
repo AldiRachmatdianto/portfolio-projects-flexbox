@@ -645,7 +645,10 @@ aside {
         background-color: #fff;
     }
     .projects {
-        height: 100vh;
+        flex-direction: column;
+        align-items: center;
+        gap: 4em;
+
     }
     .projects2 {
         height: 100vh;
@@ -653,20 +656,26 @@ aside {
 
     }
     .projects-lampiran {
-        max-width: 70%;
+        max-width: 50em;
+        flex-wrap: wrap;
 
     }
     .projects-lampiran img {
-        max-width: 400px;
+        /* max-width: 400px;
         box-sizing: border-box;
         padding: 20px;
-        max-height: 400px;
+        max-height: 400px; */
+        box-sizing: border-box;
+        padding: 20px;
+        max-width: 100%;
     }
     .teksproject h1 {
         font-size: 10rem;
         color: white;
     }
     .teksproject {
+        order: -1;
+
         font-size: 2rem;
     }
     .projects2 {
