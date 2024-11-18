@@ -365,12 +365,14 @@ aside {
     width: 100%;
     /* height: 100vh; */
     display: flex;
-    /* flex-direction: column; */
+    flex-direction: column;
     /* align-items: center; */
     margin-top: 4em;
     justify-content: space-around;
     box-sizing: border-box;
     padding: 10px;
+    align-items: center;
+    gap: 4em;
 }
 .projects-lampiran {
     display: flex;
@@ -431,6 +433,7 @@ aside {
 
 }
 .teksproject {
+    order: -1;
     margin-right: 20px;
     max-width: 40%;
     /* min-width: 10%; */
