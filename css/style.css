@@ -580,6 +580,7 @@ aside {
     .projects-lampiran {
         width: 100%;
     }
+
     .teksproject {
         margin-right: 0;
         order: -1;
@@ -640,11 +641,15 @@ aside {
     .page2 {
         gap: 10em;
     }
+    .projects-lampiran a {
+        background-color: #fff;
+    }
     .projects {
         height: 100vh;
     }
     .projects2 {
         height: 100vh;
+        box-shadow: none;
 
     }
     .projects-lampiran {
@@ -655,7 +660,7 @@ aside {
         max-width: 400px;
         box-sizing: border-box;
         padding: 20px;
-        
+        max-height: 400px;
     }
     .teksproject h1 {
         font-size: 10rem;
@@ -690,6 +695,15 @@ aside {
     .teksprojectweb h1 {
         font-size: 10rem;
         color: white;
+    }
+    .navbar {
+        height: 8em;
+    }
+    .navbar ul li a {
+        font-size: 2em;
+    }
+    .logo {
+        font-size: 2em;
     }
 
 }
@@ -780,5 +794,14 @@ aside {
     
     
     
+    }
+    .navbar {
+        height: 10em;
+    }
+    .navbar ul li a {
+        font-size: 3em;
+    }
+    .logo {
+        font-size: 3em;
     }
 }
