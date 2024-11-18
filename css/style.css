@@ -759,14 +759,14 @@ aside {
         gap: 4em;
     }
     .projects2 {
-        height: 100vh;
         justify-content: space-around;
+        height: 100vh;
+
 
     }
     .projects-lampiran {
         max-width: 130em;
 
-        height: 100vh;
         flex-wrap: wrap;
     }
     .projects-lampiran img {
